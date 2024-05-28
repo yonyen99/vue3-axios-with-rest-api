@@ -24,13 +24,14 @@
         categories: [],
       };
     },
-    created() {
+    mounted() {
       this.fetchCategories();
     },
     methods: {
       async fetchCategories() {
         try {
           const response = await axios.get('http://127.0.0.1:8000/api/category/list');
+          console.log(response);
           if (response.data.success) {
             this.categories = response.data.data;
           }

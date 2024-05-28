@@ -26,7 +26,15 @@
             <router-link class="nav-link" to="/about">About</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/categories">Categories</router-link>
+            <router-link class="nav-link" to="/categories"
+              >Categories</router-link
+            >
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/products">Products</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/discounts">Discount</router-link>
           </li>
         </ul>
         <form class="d-flex">
@@ -45,7 +53,7 @@
 
 <script>
 export default {
-    name: 'NavbarComponent',
+  name: "NavbarComponent",
 };
 </script>
 

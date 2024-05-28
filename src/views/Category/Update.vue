@@ -29,7 +29,7 @@
         },
       };
     },
-    created() {
+    mounted() {
       this.fetchCategoryDetails();
     },
     methods: {
