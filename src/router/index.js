@@ -13,6 +13,7 @@ import DiscountList from '@/views/discount/List.vue';
 import CreateDiscount from '@/views/discount/Create.vue';
 import EditDiscount from '@/views/discount/Edit.vue';
 import ShowDiscount from '@/views/discount/Show.vue';
+import StudentList from '@/views/student/List.vue';
 const routes = [
   {
     path: '/',
@@ -89,6 +90,11 @@ const routes = [
     name: 'show-discount',
     component: ShowDiscount,
     props: true
+  },
+  {
+    path: '/students',
+    name: 'students',
+    component: StudentList
   },
 
 ]
